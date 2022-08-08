@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router'
 import Home from './components/Home'
 import Nosotros from './components/Nosotros'
 import Localizacion from './components/Localizacion'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path='/localizacion' element={<Localizacion />} />
         </Routes>
       </main>
+      <Footer/>
     </div>
   )
 }
