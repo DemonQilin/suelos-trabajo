@@ -3,7 +3,7 @@
     top: 0;
     z-index: 1;
 
-    padding: 2rem 3rem;
+    padding: 2rem 1rem 2rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,14 +26,62 @@
     font-weight: 700;
 }
 
+.Header_btn-menu {
+    position: relative;
+    z-index: 1;
+
+    width: 45px;
+    aspect-ratio: 1;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3rem;
+
+    background-color: transparent;
+    color: var(--letter-color);
+    border: none;
+}
+
+.hamburger.is-active .hamburger-inner::after,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before,
+.hamburger-inner {
+    background-color: var(--letter-color);
+}
+
 .Header_list {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
+
+    font-size: 2.5rem;
 
     list-style-type: none;
+    background-color: rgb(0,0,0,0.7);
+    opacity: 0;
+    visibility: hidden;
+
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.Header_list.active {
+    opacity: 1;
+    visibility: visible;
 }
 
 .Header_link {
@@ -41,6 +89,34 @@
     text-decoration: none;
 }
 
+.Header_link:hover {
+    color: var(--main-color);
+}
+
 .Header_link--active {
     color: var(--main-color);
+}
+
+@media screen and (min-width: 720px) {
+    .Header {
+        padding: 2rem 3rem;
+    }
+
+    .Header_btn-menu {
+        display: none;
+    }
+
+    .Header_list {
+        position: static;
+
+        flex-direction: row;
+        gap: 2rem;
+
+        font-size: unset;
+
+        background-color: transparent;
+        opacity: 1;
+        visibility: visible;
+        transition: none;
+    }
 }

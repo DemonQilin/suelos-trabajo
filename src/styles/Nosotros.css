@@ -2,22 +2,37 @@
     padding: 2rem 3rem;
 }
 
-.Nosotros_container {
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-}
-
 .Nosotros_title {
     margin-top: 0;
 }
 
-.Nosotros_img {
-    width: 300px;
+.Nosotros_container {
+    margin: 3rem auto 0;
+    max-width: 600px;
 
+    background-color: var(--bg-color);
+    color: var(--letter-color);
     border-radius: 20px;
     overflow: hidden;
+}
+
+.Nosotros_main {
+    padding: 1rem 2rem;
+}
+
+.Nosotros_name {
+    margin-top: 0;
+
+    text-align: center;
+}
+
+.Nosotros_main p {
+    text-align: justify;
+}
+
+.Nosotros_img {
+    margin: 0 auto;
+    max-width: 500px;
 }
 
 .Nosotros_img img {
@@ -32,12 +47,10 @@
     order: 1;
 }
 
-.Nosotros_paragraph {
-    max-width: 500px;
-}
-
 .Nosotros_list {
     list-style-type: none;
+    padding: 0 0 0 1rem;
+    margin: 0;
 }
 
 .Nosotros_item {
@@ -49,4 +62,8 @@
     margin-right: 1rem;
 
     font-weight: 700;
+}
+
+@media screen and (min-width: 720px) {
+    
 }
