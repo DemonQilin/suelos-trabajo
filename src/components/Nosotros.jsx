@@ -15,6 +15,11 @@ const Nosotros = () => {
                 <div className="Nosotros_main">
                     <h3 className="Nosotros_name">Dahiana Arango Bedoya - <span><i>Estudiante Ingeniería Civil</i></span></h3>
                     <p className='Nosotros_paragraph'>Soy estudiante de Ingeneria Civil de octavo semestre.</p>
+                    <p className="Nosotros_paragraph">Mis datos de contacto son:</p>
+                    <ul className='Nosotros_list'>
+                        <li className="Nosotros_item"><span><i className="fa-solid fa-envelope"></i></span> <a href="mailto:dahiana.arango@eia.edu.co?Subject=He%20visto%20tu%20pagina%20de%20suelos%20y%20me%20gustaria%20hablar%20contigo">dahiana.arango@eia.edu.co</a></li>
+                        <li className="Nosotros_item"><span><i className="fa-brands fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/dahiana-arango-bedoya-798752124">https://www.linkedin.com/in/dahiana-arango-bedoya</a></li>
+                    </ul>
                 </div>
             </div>
             <div className="Nosotros_container">
@@ -24,6 +29,10 @@ const Nosotros = () => {
                 <div className="Nosotros_main Nosotros_main--inverse">
                     <h3 className="Nosotros_name">Laura Rendón Noreña - <span><i>Estudiante Ingeniería Civil</i></span></h3>
                     <p className='Nosotros_paragraph'>Soy estudiante de Ingeneria Civil de octavo semestre.</p>
+                    <p className="Nosotros_paragraph">Mis datos de contacto son:</p>
+                    <ul className='Nosotros_list'>
+                        <li className="Nosotros_item"><span><i className="fa-solid fa-envelope"></i></span> <a href="mailto:laura.rendon@eia.edu.co?Subject=He%20visto%20tu%20pagina%20de%20suelos%20y%20me%20gustaria%20hablar%20contigo">laura.rendon@eia.edu.co</a></li>
+                    </ul>
                 </div>
             </div>
             <div className="Nosotros_container">
@@ -32,7 +41,12 @@ const Nosotros = () => {
                 </div>
                 <div className="Nosotros_main">
                     <h3 className="Nosotros_name">Juan Esteban Vélez Loaiza - <span><i>Estudiante Ingeniería Geológica</i></span></h3>
-                    <p className='Nosotros_paragraph'>Soy estudiante de Ingeneria Geológica de octavo semestre.</p>
+                    <p className='Nosotros_paragraph'>Tengo 22 años, soy estudiante de Ingeneria Geológica de octavo semestre, apasionado por la tecnologia y su aplicación en todos los rubros. Espero que este proyecto se convierta en un referente de como hacer un estudio de suelos básico.</p>
+                    <p className="Nosotros_paragraph">Mis datos de contacto son:</p>
+                    <ul className='Nosotros_list'>
+                        <li className="Nosotros_item"><span><i className="fa-solid fa-envelope"></i></span> <a href="mailto:juan.velez58@eia.edu.co?Subject=He%20visto%20tu%20pagina%20de%20suelos%20y%20me%20gustaria%20hablar%20contigo">juan.velez58@eia.edu.co</a></li>
+                        <li className="Nosotros_item"><span><i className="fa-brands fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/juanes-velez">https://www.linkedin.com/in/juanes-velez</a></li>
+                    </ul>
                 </div>
             </div>
         </div>

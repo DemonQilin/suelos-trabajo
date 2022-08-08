@@ -1,11 +1,16 @@
 .Nosotros {
-    padding: 0 3rem;
+    padding: 2rem 3rem;
 }
 
 .Nosotros_container {
     margin-top: 3rem;
     display: flex;
+    justify-content: center;
     gap: 3rem;
+}
+
+.Nosotros_title {
+    margin-top: 0;
 }
 
 .Nosotros_img {
@@ -25,4 +30,23 @@
 
 .Nosotros_main--inverse {
     order: 1;
+}
+
+.Nosotros_paragraph {
+    max-width: 500px;
+}
+
+.Nosotros_list {
+    list-style-type: none;
+}
+
+.Nosotros_item {
+    margin-bottom: 1rem;
+}
+
+.Nosotros_item span {
+    display: inline-block;
+    margin-right: 1rem;
+
+    font-weight: 700;
 }
