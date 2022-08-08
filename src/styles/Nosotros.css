@@ -1,0 +1,28 @@
+.Nosotros {
+    padding: 0 3rem;
+}
+
+.Nosotros_container {
+    margin-top: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.Nosotros_img {
+    width: 300px;
+
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.Nosotros_img img {
+    width: 100%;
+}
+
+.Nosotros_img--inverse {
+    order: 2;
+}
+
+.Nosotros_main--inverse {
+    order: 1;
+}

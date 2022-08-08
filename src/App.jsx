@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header'
 import { Route, Routes } from 'react-router'
 import Home from './components/Home'
+import Nosotros from './components/Nosotros'
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <main>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/nosotros' element={<Home/>}/>
+          <Route path='/nosotros' element={<Nosotros />} />
         </Routes>
       </main>
     </div>
