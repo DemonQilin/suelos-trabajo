@@ -1,0 +1,32 @@
+.Header {
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--bg-color);
+    color: var(--letter-color);
+}
+
+.Header_title {
+    font-size: 2rem;
+}
+
+.Header_list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    list-style-type: none;
+}
+
+.Header_link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Header_link--active {
+    color: var(--main-color);
+}
