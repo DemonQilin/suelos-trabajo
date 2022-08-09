@@ -30,8 +30,8 @@ const Header = () => {
             </button>
             <ul className="Header_list" ref={$menu}>
                 <li className='Header_item'><NavLink to='/' className={({ isActive }) => isActive ? 'Header_link Header_link--active' : 'Header_link'}>Inicio</NavLink></li>
-                <li className='Header_item'><NavLink to='/localizacion' className={({ isActive }) => isActive ? 'Header_link Header_link--active' : 'Header_link'}>Localizacion</NavLink></li>
-                <li className='Header_item'><NavLink to='/marco' className={({ isActive }) => isActive ? 'Header_link Header_link--active' : 'Header_link'}>Marco Teorico</NavLink></li>
+                <li className='Header_item'><NavLink to='/localizacion' className={({ isActive }) => isActive ? 'Header_link Header_link--active' : 'Header_link'}>Localización</NavLink></li>
+                <li className='Header_item'><NavLink to='/marco/geomorfologia' className={({ isActive }) => isActive ? 'Header_link Header_link--active' : 'Header_link'}>Marco de Referencia</NavLink></li>
                 <li className='Header_item'><NavLink to='/nosotros' className={({ isActive }) => isActive ? 'Header_link Header_link--active' : 'Header_link'}>Nosotros</NavLink></li>
             </ul>
         </header>

@@ -11,9 +11,10 @@ const Home = () => {
     const [visibleImg, setVisibleImg] = useState(0);
 
     useEffect(() => {
+        console.log('Hola')
         const loopImg = setInterval(() => {
             setVisibleImg(stateVisible => {
-                if (stateVisible + 1 > imgs.length - 1) return 0;
+                if (stateVisible === imgs.length - 1) return 0;
                 return stateVisible + 1;
             });
         }, 5000);
@@ -28,8 +29,8 @@ const Home = () => {
             <div className="Home_carrusel">
                 <img src={imgs[visibleImg]} />
                 <div className="Home_carrusel_cntrls">
-                    <button className="Home_carrusel_btn" onClick={e => setVisibleImg(visibleImg - 1)}><i className="fa-solid fa-angle-left"></i></button>
-                    <button className="Home_carrusel_btn" onClick={e => setVisibleImg(visibleImg + 1)}><i className="fa-solid fa-chevron-right"></i></button>
+                    <button className="Home_carrusel_btn" onClick={e => setVisibleImg(visibleImg === 0 ? imgs.length - 1 : visibleImg - 1)}><i className="fa-solid fa-angle-left"></i></button>
+                    <button className="Home_carrusel_btn" onClick={e => setVisibleImg(visibleImg === imgs.length - 1 ? 0 : visibleImg + 1)}><i className="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
             <h2 className='Home_title'>Introducción</h2>

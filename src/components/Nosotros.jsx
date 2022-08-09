@@ -14,7 +14,7 @@ const Nosotros = () => {
                 </div>
                 <div className="Nosotros_main">
                     <h3 className="Nosotros_name">Dahiana Arango Bedoya - <span><i>Estudiante Ingeniería Civil</i></span></h3>
-                    <p className='Nosotros_paragraph'>Soy estudiante de Ingeneria Civil de octavo semestre.</p>
+                    <p className='Nosotros_paragraph'>Tengo 20 años, me encanta la ciencia, conectarme con la naturaleza y la metereologia.</p>
                     <p className="Nosotros_paragraph">Mis datos de contacto son:</p>
                     <ul className='Nosotros_list'>
                         <li className="Nosotros_item"><span><i className="fa-solid fa-envelope"></i></span> <a href="mailto:dahiana.arango@eia.edu.co?Subject=He%20visto%20tu%20pagina%20de%20suelos%20y%20me%20gustaria%20hablar%20contigo">dahiana.arango@eia.edu.co</a></li>
@@ -28,10 +28,11 @@ const Nosotros = () => {
                 </div>
                 <div className="Nosotros_main Nosotros_main--inverse">
                     <h3 className="Nosotros_name">Laura Rendón Noreña - <span><i>Estudiante Ingeniería Civil</i></span></h3>
-                    <p className='Nosotros_paragraph'>Soy estudiante de Ingeneria Civil de octavo semestre.</p>
+                    <p className='Nosotros_paragraph'>Tengo 21 años, soy estudiante de ingeniería civil de octavo semestre, me gusta la construcción de vías y estructuras, con  indagación en la geotecnia.</p>
                     <p className="Nosotros_paragraph">Mis datos de contacto son:</p>
                     <ul className='Nosotros_list'>
                         <li className="Nosotros_item"><span><i className="fa-solid fa-envelope"></i></span> <a href="mailto:laura.rendon@eia.edu.co?Subject=He%20visto%20tu%20pagina%20de%20suelos%20y%20me%20gustaria%20hablar%20contigo">laura.rendon@eia.edu.co</a></li>
+                        <li className="Nosotros_item"><span><i className="fa-brands fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/laura-rend%C3%B3n-375282248/">https://www.linkedin.com/in/laura-rend%C3%B3n-375282248/</a></li>
                     </ul>
                 </div>
             </div>
