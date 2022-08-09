@@ -40,8 +40,25 @@
     color: var(--main-color);
 }
 
-.MarcoReferencia_subtitle {
+.MarcoReferencia_subtitle,
+.MarcoReferencia_h4 {
     margin-top: 0;
+}
+
+.MarcoReferencia_subtitle {
+    font-size: 2rem;
+}
+
+.MarcoReferencia_h4 {
+    margin-bottom: 2rem;
+
+    font-size: 1.8rem;
+    color: var(--main-color);
+}
+
+.MarcoReferencia_h4 span {
+    font-size: 0.8em;
+    font-style: italic;
 }
 
 @media screen and (min-width: 768px) {
