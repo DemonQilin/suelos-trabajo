@@ -13,12 +13,16 @@ const MenuMarco = () => {
       path: 'geologia'
     },
     {
-      name: 'Hidrología',
-      path: 'hidrologia'
+      name: 'Unidades Superficiales',
+      path: 'unidades-superficiales'
     },
     {
       name: 'Usos del Suelo',
       path: 'usos-del-suelo'
+    },
+    {
+      name: 'Hidrología',
+      path: 'hidrologia'
     }
   ];
 
