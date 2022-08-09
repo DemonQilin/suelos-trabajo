@@ -23,7 +23,7 @@ const UnidadesSuperficiales = () => {
 
     return (
         <section className="Marco_referencia_section">
-            <h2 className="Marco_referencia_title">Unidades Superficiales</h2>
+            <h2 className="MarcoReferencia_title">Unidades Superficiales</h2>
             <p className="MarcoReferencia_paragraph">En el Municipio de La Unión, se identifican cuatro (4) Unidades correspondientes a material superficial:</p>
             <figure className="MarcoReferencia_img">
                 <img src={materiales_sup} alt="Mapa de material superficial de La Unión" />
@@ -31,7 +31,7 @@ const UnidadesSuperficiales = () => {
             </figure>
             {sectionsUnidades.map((section, index) => (
                 <>
-                    <h3 className='MarcoReferencia_h4' key={section.title}>{section.title}</h3>
+                    <h3 className='MarcoReferencia_h4' key={section.index}>{section.title}</h3>
                     {section.description.map(description => <p className="MarcoReferencia_paragraph" key={description}>{description}</p>)}
                 </>
             ))}

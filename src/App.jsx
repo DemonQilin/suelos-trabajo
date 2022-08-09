@@ -10,6 +10,7 @@ import Geomorfologia from './components/MarcoReferencia/Geomorfologia'
 import Geologia from './components/MarcoReferencia/Geologia'
 import Hidrologia from './components/MarcoReferencia/Hidrologia'
 import UnidadesSuperficiales from './components/MarcoReferencia/UnidadesSuperficiales'
+import UsosSuelo from './components/MarcoReferencia/UsosSuelo'
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
             <Route path='geomorfologia' element={<Geomorfologia/>}/>
             <Route path='geologia' element={<Geologia />} />
             <Route path='unidades-superficiales' element={<UnidadesSuperficiales />} />
-            <Route path='usos-del-suelo' element={<div>Usos del suelo</div>} />
+            <Route path='usos-del-suelo' element={<UsosSuelo/>} />
             <Route path='hidrologia' element={<Hidrologia/>} />
           </Route>
         </Routes>

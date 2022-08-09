@@ -11,7 +11,6 @@ const Home = () => {
     const [visibleImg, setVisibleImg] = useState(0);
 
     useEffect(() => {
-        console.log('Hola')
         const loopImg = setInterval(() => {
             setVisibleImg(stateVisible => {
                 if (stateVisible === imgs.length - 1) return 0;

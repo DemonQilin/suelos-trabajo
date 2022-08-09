@@ -28,7 +28,7 @@ const Hidrologia = () => {
 
     return (
         <section className="Marco_referencia_section">
-            <h2 className="Marco_referencia_title">Hidrología</h2>
+            <h2 className="MarcoReferencia_title">Hidrología</h2>
             <p className="MarcoReferencia_paragraph">La Unión es un Municipio de relativa complejidad hidrográfica. Esta complejidad se relaciona con el giro que da el curso del Rio Piedras para enrutarse hacia su desembocadura en el Rio Buey; este giro es un giro cerrado en "U" que le da a la Cuenca del Piedras una forma poco usual de herradura. Otra cara de esa complejidad es el encañonamiento extremo que van alcanzando el Rio Piedras y Rio el Buey a medida que bajan por las montañas.</p>
             <p className="MarcoReferencia_paragraph">El territorio del Municipio de La Unión está conformado hidrográficamente por la Cuenca del Rio Buey en forma exclusive. En términos de subcuencas la jurisdicción hídrica de La Unión es: El Cardal, San Miguel, el Buey Alto, el Piedras y El Buey Medio. A nivel de micro cuencas se tiene una división en 17 unidades. El curso del Rio Piedras este formado básicamente por las microcuencas del Piedras Alto, Piedras Medio y Piedras Bajo. Los tamaños de las microcuencas de La Unión varían ampliamente. La microcuenca de la Quebrada San Juan tiene solo 220 has, en tanto que la del Rio San Miguel tiene 2676 has.</p>
             <figure className="MarcoReferencia_img">

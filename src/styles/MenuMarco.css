@@ -1,3 +1,8 @@
+.MenuMarco_nav {
+    position: sticky;
+    top: 120px;
+}
+
 .MenuMarco_list {
     margin: 0;
     padding: 1rem 0;
@@ -19,6 +24,8 @@
 
 @media screen and (min-width: 768px) {
     .MenuMarco_nav {
+        position: static;
+
         flex-shrink: 0;
         width: 25%;
         max-width: 250px;
