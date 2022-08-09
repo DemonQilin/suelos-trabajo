@@ -51,9 +51,12 @@
 
 .MarcoReferencia_h4 {
     margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
 
     font-size: 1.8rem;
     color: var(--main-color);
+
+    border-bottom: thin solid var(--main-color);
 }
 
 .MarcoReferencia_h4 span {
