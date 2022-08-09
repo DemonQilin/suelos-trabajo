@@ -1,2 +1,57 @@
-.MenuMarco_nav {
+.MenuMarco_list {
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: gainsboro;
+
+    list-style-type: none;
+}
+
+.MenuMarco_link.active,
+.MenuMarco_link:hover {
+    color: var(--main-color);
+}
+
+@media screen and (min-width: 768px) {
+    .MenuMarco_nav {
+        flex-shrink: 0;
+        width: 25%;
+        max-width: 250px;
+
+        box-shadow: 10px 0 10px -5px rgba(0,0,0,0.5);
+    }
+    
+    .MenuMarco_list {
+        position: sticky;
+        top: 120px;
+        padding: 0;
+        
+        height: calc(100vh - 120px);
+        
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .MenuMarco_item {
+        width: 100%;
+    }
+
+    .MenuMarco_link {
+        display: block;
+        padding: 2rem;
+    }
+
+    .MenuMarco_link.active,
+    .MenuMarco_link:hover {
+        font-weight: 700;
+        
+        background-color: var(--main-color);
+        color: unset;
+    }
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import morfologia1 from '../../assets/morfologia.png'
 import morfologia2 from '../../assets/morfologia_2.jpeg'
 import morfologia3 from '../../assets/morfologia_3.jpeg'
+import '../../styles/Geomorfologia.css'
 
 const Geomorfologia = () => {
     return (

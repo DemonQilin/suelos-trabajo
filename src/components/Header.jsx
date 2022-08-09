@@ -7,18 +7,22 @@ const Header = () => {
     const $menu = useRef();
 
     useEffect(() => {
-        document.addEventListener('click', e => {
+        const handlerClick = e => {
             if (e.target === $btnMenu.current || e.target.matches('.Header_btn-menu *')) {
                 $btnMenu.current.classList.toggle('is-active');
                 $menu.current.classList.toggle('active');
             }
-            
-            if ((e.target.matches('.Header_link')) && window.innerWidth < 720) {
+
+            if ((e.target.matches('.Header_link')) && window.innerWidth < 768) {
                 $btnMenu.current.classList.remove('is-active');
                 $menu.current.classList.remove('active');
             }
-        })
-    }, []);
+        };
+
+        document.addEventListener('click', handlerClick);
+
+        return () => document.removeEventListener('click', handlerClick);
+    });
 
     return (
         <header className="Header">

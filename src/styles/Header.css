@@ -5,6 +5,7 @@
 
     padding: 2rem 1rem 2rem 3rem;
     display: flex;
+    height: 120px;
     justify-content: space-between;
     align-items: center;
 
@@ -97,7 +98,7 @@
     color: var(--main-color);
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
     .Header {
         padding: 2rem 3rem;
     }

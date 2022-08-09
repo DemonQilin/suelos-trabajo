@@ -1,0 +1,44 @@
+.Geomorfologia {
+    padding: 2rem 3rem;
+}
+
+.Geomorfologia_title {
+    margin-top: 0;
+}
+
+.Geomorfologia_paragraph {
+    margin-top: 0;
+
+    text-align: justify;
+}
+
+.Geomorfologia_img {
+    max-width: 480px;
+    margin: 0 auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    border: thin solid #000;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
+    
+    overflow: hidden;
+}
+
+.Geomorfologia_img img {
+    max-width: 100%;
+}
+
+.Geomorfologia figcaption {
+    padding: 1rem;
+
+    text-align: center;
+
+    color: var(--main-color);
+}
+
+.Geomorfologia_subtitle {
+    margin-top: 0;
+}
