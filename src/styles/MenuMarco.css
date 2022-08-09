@@ -29,13 +29,15 @@
     .MenuMarco_list {
         position: sticky;
         top: 120px;
+
         padding: 0;
-        
         height: calc(100vh - 120px);
-        
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+
+        background-color: var(--bg-color);
+        color: var(--letter-color);
     }
 
     .MenuMarco_item {

@@ -7,6 +7,7 @@ import Localizacion from './components/Localizacion'
 import Footer from './components/Footer'
 import MarcoReferencia from './components/MarcoReferencia/MarcoReferencia'
 import Geomorfologia from './components/MarcoReferencia/Geomorfologia'
+import Geologia from './components/MarcoReferencia/Geologia'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/localizacion' element={<Localizacion />} />
           <Route path='/marco' element={<MarcoReferencia />}>
             <Route path='geomorfologia' element={<Geomorfologia/>}/>
+            <Route path='geologia' element={<Geologia />} />
           </Route>
         </Routes>
       </main>

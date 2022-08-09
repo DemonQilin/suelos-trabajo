@@ -1,9 +1,13 @@
 import React from 'react'
-import { Outlet } from 'react-router'
+import { Navigate, Outlet, useLocation } from 'react-router'
 import MenuMarco from './MenuMarco'
 import '../../styles/MarcoReferencia.css'
 
 const MarcoReferencia = () => {
+    const { pathname } = useLocation();
+
+    if (pathname === '/marco') return <Navigate to='/marco/geomorfologia' />;
+
     return (
         <div className="MarcoReferencia">
             <MenuMarco />
